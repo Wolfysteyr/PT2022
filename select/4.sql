@@ -8,6 +8,6 @@ select * from customers
 
 -- 3
 
-where (birth_date between '1990-01-01' and '2024-12-31' or points > 1000) and state in ('VA', 'CO');
+where birth_date between '1990-01-01' and '2024-12-31' or (points > 1000 and state in ('VA', 'CO'));
 
 
