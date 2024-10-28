@@ -1,6 +1,6 @@
 -- self join
 
--- use sql_hr;
+use sql_hr;
 
 SELECT 
     e.employee_id,
